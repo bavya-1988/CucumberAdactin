@@ -1,0 +1,358 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User login to the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15802768384,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "stepdefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313274880,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"vinovicky\"  as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122660352,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter  \"Jan@2020\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1218159104,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "stepdefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7819264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User login to the application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-login-to-the-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 395776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.aferHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 371446784,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "stepdefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123698176,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter \"AAA\"  as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAA",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82675712,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter  \"1234\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776225280,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "stepdefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User login to the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 363603456,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "stepdefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131471872,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"vinovicky\"  as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92710912,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter  \"Jan@2020\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753405952,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "stepdefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 121344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User login to the application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-login-to-the-application;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86528,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.aferHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 395609088,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User launch the adactin application",
+            "match": {
+              "location": "stepdefinition.user_launch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111964160,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter \"BBB\"  as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBB",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80522752,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter  \"2222\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2222",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.user_enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765371392,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User validate the username and password",
+            "match": {
+              "location": "stepdefinition.user_validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel booking functionality",
+    "description": "",
+    "id": "hotel-booking-functionality",
+    "keyword": "Feature",
+    "uri": "adactin.feature"
+  }
+]
